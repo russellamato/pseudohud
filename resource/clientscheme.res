@@ -3040,7 +3040,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Park Lane NF"
+				"name"		"ParkLaneNF"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3053,6 +3053,42 @@ Scheme
 			{
 				"name"		"Semplicita-Medium"
 				"tall"		"12"
+				"antialias" "1"
+				
+			}
+	
+		}
+		
+		Pseudofont15
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"15"
+				"antialias" "1"
+				
+			}
+	
+		}
+		
+		Pseudofont18
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"18"
+				"antialias" "1"
+				
+			}
+	
+		}
+		
+		Pseudofont21
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"21"
 				"antialias" "1"
 				
 			}
@@ -5880,8 +5916,8 @@ Scheme
 			}
 			"8"
 			{
-				"font" "resource/fonts/Park Lane NF.ttf"
-				"name" "Park Lane NF"
+				"font" "resource/fonts/ParkLaneNF.ttf"
+				"name" "ParkLaneNF"
 			}
 			"9"
 			{
