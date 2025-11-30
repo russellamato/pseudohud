@@ -17,7 +17,15 @@ Scheme
 
 	//////////////////////// COLORS ///////////////////////////
 	Colors
+		
 	{
+		// custom hud colors 
+		"pseudo_Gray"		"102 102 91 255"
+		"pseudo_Yellow"		"222 182 64 255"
+		"pseudo_White"		"201 201 201 255"
+		"pseudo_Black"		"0 0 0 255"
+		"pseudo_Red"		"120 6 6 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -3035,7 +3043,8 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	
+		
+		//font used for display names like areas in pseudoregalia
 		PseudoAreafont15
 		{
 			"1"
@@ -3047,6 +3056,39 @@ Scheme
 	
 		}
 		
+		PseudoAreafont21
+		{
+			"1"
+			{
+				"name"		"ParkLaneNF"
+				"tall"		"21"
+				"antialias" "1"
+			}
+	
+		}
+		
+		PseudoAreafont27
+		{
+			"1"
+			{
+				"name"		"ParkLaneNF"
+				"tall"		"27"
+				"antialias" "1"
+			}
+	
+		}
+		
+		PseudoAreafont33
+		{
+			"1"
+			{
+				"name"		"ParkLaneNF"
+				"tall"		"33"
+				"antialias" "1"
+			}
+	
+		}
+		//Font used in dialogue for pseudoregalia
 		Pseudofont12
 		{
 			"1"
@@ -3094,7 +3136,40 @@ Scheme
 			}
 	
 		}
+		
+		Pseudofont24
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"24"
+				"antialias" "1"
+				
+			}
 	
+		}
+		Pseudofont27
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"27"
+				"antialias" "1"
+				
+			}
+	
+		}
+		Pseudofont30
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"30"
+				"antialias" "1"
+				
+			}
+	
+		}
 	}
 
 	
