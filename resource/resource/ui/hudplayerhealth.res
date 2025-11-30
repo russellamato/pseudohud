@@ -39,8 +39,8 @@
 		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -48,13 +48,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"c-330"	[$WIN32]
-		"ypos"			"c-173"	[$WIN32]
+		"xpos"			"0"	
+		"ypos"			"0"	
 		"zpos"			"1"
-		"wide"			"200"	[$WIN32]
-		"tall"			"5"	[$WIN32]
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"	
+		"tall"			"0"	
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -63,8 +63,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"60"	[$WIN32]
+		"ypos"			"60"	
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
@@ -73,14 +72,14 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Pseudofont21"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"Pseudo_Yellow"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"c-345"
-		"ypos"			"c-190"	
+		"xpos"			"82"
+		"ypos"			"51"	
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"18"
@@ -89,7 +88,7 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"Pseudofont12"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"Pseudo_Black"
 	}
 	"PlayerStatusBleedImage"
 	{
