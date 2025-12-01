@@ -2094,7 +2094,7 @@ event QuestViewSubPanel_QuestPurchased
 
 event QuestViewSubPanel_SelectMouseOver
 {
-	Animate BGImageDarkener Alpha 0 Linear 0 0.1
+	Animate BGImageDarkener Alpha 0 Linear 0 .1 
 }
 
 event QuestViewSubPanel_SelectMouseExit

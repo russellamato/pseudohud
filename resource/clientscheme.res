@@ -23,7 +23,7 @@ Scheme
 		"pseudo_Gray"		"102 102 91 255"
 		"pseudo_Yellow"		"222 182 64 255"
 		"pseudo_White"		"201 201 201 255"
-		"pseudo_Black"		"0 0 0 255"
+		"pseudo_Black"		"8 10 14 255"
 		"pseudo_Red"		"120 6 6 255"
 		
 		// base colors
@@ -3045,7 +3045,44 @@ Scheme
 		}
 		
 		//font used for display names like areas in pseudoregalia
-		PseudoAreafont15
+		
+		
+		PseudoAreaFont6
+		
+		{
+			"1"
+			{
+				"name"		"ParkLaneNF"
+				"tall"		"6"
+				"antialias" "1"
+			}
+		
+		}
+		
+		PseudoAreaFont9
+		
+		{
+			"1"
+			{
+				"name"		"ParkLaneNF"
+				"tall"		"9"
+				"antialias" "1"
+			}
+		
+		}
+		PseudoAreafont12
+		
+		{
+			"1"
+			{
+				"name"		"ParkLaneNF"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		
+		}
+		PseudoAreaFont15
+		
 		{
 			"1"
 			{
@@ -3089,6 +3126,44 @@ Scheme
 	
 		}
 		//Font used in dialogue for pseudoregalia
+		
+				
+		Pseudofont3
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"3"
+				"antialias" "1"
+				
+			}
+	
+		}
+	
+		Pseudofont6
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"6"
+				"antialias" "1"
+				
+			}
+	
+		}
+		
+		Pseudofont9
+		{
+			"1"
+			{
+				"name"		"Semplicita-Medium"
+				"tall"		"9"
+				"antialias" "1"
+				
+			}
+	
+		}
+		
 		Pseudofont12
 		{
 			"1"
